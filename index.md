@@ -1,5 +1,5 @@
 
-<html lang="en-us">
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -12,4 +12,4 @@
   <body>
     <div id="unityContainer" style="width: 1000px; height: 600px; margin: auto"></div>
   </body>
-</html>
+

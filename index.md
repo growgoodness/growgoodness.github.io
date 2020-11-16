@@ -10,6 +10,7 @@
   </head>
   <body>
     
-    <div id="unityContainer" style="width: 100%; height: 100%; position: absolute; margin: 0 0 0 0; padding: 0 0 0 0;"></div>
+    <div id="unityContainer" style="width: 100%; height: 100%; position: absolute;"></div>
+    
   </body>
 

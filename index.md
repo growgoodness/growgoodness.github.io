@@ -9,6 +9,7 @@
     </script>
   </head>
   <body>
-    <div id="unityContainer" style="width: 1000px; height: 600px; margin: auto"></div>
+    
+    <div id="unityContainer" style="width: 100%; height: 100%; position: absolute; margin: auto"></div>
   </body>
 

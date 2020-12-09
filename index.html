@@ -36,13 +36,7 @@
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
 
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        container.className = "unity-mobile";
-        config.devicePixelRatio = 1;
-      } else {
-        canvas.style.width = "900px";
-        canvas.style.height = "500px";
-      }
+      
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");

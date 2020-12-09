@@ -41,8 +41,15 @@
       var loadingBar = document.querySelector("#unity-loading-bar");
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var w = window.innerWidth;
 
-      
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        container.className = "unity-mobile";
+        config.devicePixelRatio = 1;
+      } else {
+        canvas.style.width = w;
+        canvas.style.height = "500px";
+      }
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");

@@ -24,6 +24,7 @@ a {
 
 .webgl-wrapper {
   width: 100%;
+  height:auto;
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;

@@ -31,15 +31,15 @@ a {
   border: 1px solid black;
 }
 
-#unity-container {
+
+
+
+#unity-canvas {
   width: 62vw; 
   height: calc((9/16)*62vw); 
   max-width:960;
   border: 1px solid red;
 }
-
-
-
 
 
 .webgl-content * {

@@ -50,7 +50,7 @@ a {
 
 #unityContainer canvas{
     position:absolute;
-    width:100%;
+    width:auto;
     height:auto;
     top:0;
     left:0;

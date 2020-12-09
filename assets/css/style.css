@@ -60,7 +60,7 @@ a {
   background: #ccc;
 }
 
-#unityContainer canvas{
+#unity-container canvas{
     position:absolute;
     top:0;
     left:0;

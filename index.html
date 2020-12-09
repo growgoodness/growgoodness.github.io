@@ -18,6 +18,21 @@
       </div>
     </div>
     <script>
+      
+      $(function () {
+            $(window).resize(function () {
+                var width = $(window).width(),
+                    height = $(window).height();
+
+                if (width / height > 16 / 9) {
+                    $('canvas.style.width').css('max-width', height * 16 / 9);
+                } else {
+                    $('canvas.style.height').css('max-width', '100%');
+                }
+            }).trigger('resize');
+        });
+      
+      
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/webBuildScale.loader.js";
       var config = {
